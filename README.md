@@ -28,20 +28,21 @@ lucide-react icons
 🚀 Getting Started
 Clone the repo:
 
-bash
-git clone https://github.com/yourusername/hakela.git
-cd hakela
+
+	git clone https://github.com/yourusername/hakela.git
+	cd hakela
 
 Install dependencies:
-npm install
-# or
-yarn
-			
+
+	npm install
+	# or
+	yarn
+				
 Start the dev server:
 			
-npm run dev
-# or
-yarn dev
+	npm run dev
+	# or
+	yarn dev
 
 📁 Project Structure
 /components/ui → Reusable form components (input, textarea, etc.)	
