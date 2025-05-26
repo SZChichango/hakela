@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Hakela — Mobile-Friendly Invoice & Receipt Generator for Africa
+Hakela is a lightweight micro-SaaS app that lets freelancers, small businesses, and service providers across Africa generate professional invoices and receipts — optimized for mobile payments like M-Pesa, MoMo, Airtel Money, and more.
 
-## Getting Started
+Designed with clean, modern UI using ShadCN and TailwindCSS, Hakela helps you send invoices that your clients can pay directly from their phones.
 
-First, run the development server:
+✨ Features
+			📋 Add unlimited invoice items with quantity and unit price
+			
+			🧮 Auto-calculates subtotal
+			
+			🧾 Includes business & client information and additional notes
+			
+			📱 Built for mobile-first use
+			
+			📤 (Coming Soon) Generate PDF and share via WhatsApp or email
+			
+			💰 (Coming Soon) Accept payments via M-Pesa, MoMo, etc.
+			
+			⚙️ Built with TypeScript, React, and ShadCN UI
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🛠️ Tech Stack
+			React (Vite or Next.js)
+			
+			TypeScript
+			
+			ShadCN UI
+			
+			TailwindCSS
+			
+			lucide-react icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 Getting Started
+Clone the repo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+			bash
+			Copy
+			Edit
+			git clone https://github.com/yourusername/hakela.git
+			cd hakela
+			Install dependencies:
+			
+			bash
+			Copy
+			Edit
+			npm install
+			# or
+			yarn
+			Start the dev server:
+			
+			bash
+			Copy
+			Edit
+			npm run dev
+			# or
+			yarn dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📁 Project Structure
+		/components/ui → Reusable form components (input, textarea, etc.)
+		
+		/InvoiceForm.tsx → Main form component
+		
+		/types (optional) → TypeScript types
 
-## Learn More
+🔮 Coming Soon
+		🧾 PDF export and invoice preview
+		
+		💸 Payment gateway integrations (M-Pesa, MTN MoMo, Airtel Money)
+		
+		👤 User authentication and saved invoice history
+		
+		🌍 Language and currency localization
 
-To learn more about Next.js, take a look at the following resources:
+📸 Screenshots
+		(Add screenshots here of the InvoiceForm UI and example invoice output.)
+		
+		🙏 Acknowledgements
+		ShadCN/UI
+		
+		TailwindCSS
+		
+		lucide-react icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📄 License
+		MIT — free to use, build on, and ship to your local market!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+—
