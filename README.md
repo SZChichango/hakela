@@ -4,83 +4,64 @@ Hakela is a lightweight micro-SaaS app that lets freelancers, small businesses, 
 Designed with clean, modern UI using ShadCN and TailwindCSS, Hakela helps you send invoices that your clients can pay directly from their phones.
 
 ✨ Features
-			📋 Add unlimited invoice items with quantity and unit price
+📋 Add unlimited invoice items with quantity and unit price
 			
-			🧮 Auto-calculates subtotal
+🧮 Auto-calculates subtotal
 			
-			🧾 Includes business & client information and additional notes
+🧾 Includes business & client information and additional notes
 			
-			📱 Built for mobile-first use
+📱 Built for mobile-first use
 			
-			📤 (Coming Soon) Generate PDF and share via WhatsApp or email
+📤 (Coming Soon) Generate PDF and share via WhatsApp or email
 			
-			💰 (Coming Soon) Accept payments via M-Pesa, MoMo, etc.
+💰 (Coming Soon) Accept payments via M-Pesa, MoMo, etc.
 			
-			⚙️ Built with TypeScript, React, and ShadCN UI
+⚙️ Built with TypeScript, React, and ShadCN UI
 
 🛠️ Tech Stack
-			React (Vite or Next.js)
-			
-			TypeScript
-			
-			ShadCN UI
-			
-			TailwindCSS
-			
-			lucide-react icons
+React (Vite or Next.js)		
+TypeScript		
+ShadCN UI		
+TailwindCSS		
+lucide-react icons
 
 🚀 Getting Started
 Clone the repo:
 
-			bash
-			Copy
-			Edit
-			git clone https://github.com/yourusername/hakela.git
-			cd hakela
-			Install dependencies:
+bash
+git clone https://github.com/yourusername/hakela.git
+cd hakela
+
+Install dependencies:
+npm install
+# or
+yarn
 			
-			bash
-			Copy
-			Edit
-			npm install
-			# or
-			yarn
-			Start the dev server:
+Start the dev server:
 			
-			bash
-			Copy
-			Edit
-			npm run dev
-			# or
-			yarn dev
+npm run dev
+# or
+yarn dev
 
 📁 Project Structure
-		/components/ui → Reusable form components (input, textarea, etc.)
-		
-		/InvoiceForm.tsx → Main form component
-		
-		/types (optional) → TypeScript types
+/components/ui → Reusable form components (input, textarea, etc.)	
+/InvoiceForm.tsx → Main form component
+/types (optional) → TypeScript types
 
 🔮 Coming Soon
-		🧾 PDF export and invoice preview
-		
-		💸 Payment gateway integrations (M-Pesa, MTN MoMo, Airtel Money)
-		
-		👤 User authentication and saved invoice history
-		
-		🌍 Language and currency localization
+🧾 PDF export and invoice preview
+💸 Payment gateway integrations (M-Pesa, MTN MoMo, Airtel Money)
+👤 User authentication and saved invoice history
+🌍 Language and currency localization
 
 📸 Screenshots
-		(Add screenshots here of the InvoiceForm UI and example invoice output.)
-		
-		🙏 Acknowledgements
-		ShadCN/UI
-		
-		TailwindCSS
-		
-		lucide-react icons
+(Add screenshots here of the InvoiceForm UI and example invoice output.)
+🙏 Acknowledgements
+ShadCN/UI
+TailwindCSS
+lucide-react icons
 
 📄 License
-		MIT — free to use, build on, and ship to your local market!
+MIT — free to use, build on, and ship to your local market!
 
 —
